@@ -1,5 +1,5 @@
 # ina219_esp32s2
- Wireless Battery Meter
+# Wireless Battery Meter
 
 This allows basic battery monitoring data (current/amps and volts) to be sent to a MQTT broker over WiFi. It uses an INA219 breakout board connected to a big shunt (on the plus/high side). INA219 is, in turn, connected to the ESP32S2 controller. From the controller the data is published to two topics. In my case, the base topic is vessels/self/esp32.
 
